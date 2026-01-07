@@ -1,3 +1,9 @@
+'''
+Question 9: Batch pipeline: Make a Python script (not Notebook!) that takes a text file with
+image file names as input, a “model” file as another input. It processes images
+one-by-one keeping the results, then loads the model, updates it with all
+results, and saves it back
+'''
 import sys
 import os
 import json
